@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>Fuxaseのテストページ</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <link rel="stylesheet" href="css/style.css">
+</head> <title>XBPのページ</title>
+<body>
+    <h1>第5回</h1>
+    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
+    <div>
+         テーマ「ゲーム作成」<br>
+        
+            <ul>
+                <li>ジャンル　RPG</li>
+                <li>背景　もう99回遅刻したあなたは、もし今回も遅刻すれば今学期の単位を落としてしまう。そのため必死に道用先生の教室へ走っている。</li>
+                <li>遊び方　数字を選択してシーケンスを進んで、敵を倒していく。</li>
+               
+               </ul>
+
+               <br>
+               ソースコード<br>
+               <code>
+                <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+                <li style="background-color:#EFF;">print("あなたは、横浜の大学に通う大学一年生！今日晴れだけど、あなたはもう今学期99回に道用先生の授業に遅刻になった。"</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"もし今回も遅刻すれば今学期の単位が取れないようになる。"</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"しかし、今のあなたは学校についたばかりだ。"</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"あと３分で遅刻になる")</li>
+                <li style="background-color:#EFF;">name=input("まず、あなたのかっこい名前は？")</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">selecta = int(input("運命の数字1~3の中から選んでね！"))</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">if selecta == 1:</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print("非常階段に急にゴリラが現れ、暴れ始めた！！")</li>
+                <li style="background-color:#EFF;"></li>
+                <li style="background-color:#EEF;">elif selecta == 3:</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("無限階段に登って永遠の循環に陥った")</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">elif selecta == 2:</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print("清掃員専用の秘密のエレベーターを教えてくれた！！あなたは無事に18階にたどり着くことができた！")</li>
+                <li style="background-color:#EFF;"></li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print("そして、あなたは、１キロメートルの廊下でツッパリの先輩に出会った！残り1分30秒")</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;selectb = int(input("1~3の中から選んでね！"))</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;if selectb == 1:</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("どけって言ったけど、ツッパリの先輩が怒ったので、パワー型のスタンドを呼び出してあなたを100連続に殴った。"</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"結果が自分でもスタンドで反撃して無事になったけど、残り３秒なので遅刻になる")</li>
+                <li style="background-color:#EFF;"></li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;elif selectb == 2:</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("無視したのに、急に廊下で滑って重傷された。遅刻になる。")</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;elif selectb == 3:</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("一瞬で自分のスタンドを呼び出して、先輩を蹴ってしまったが運よく気絶してくれたようだ！先に進もう！")</li>
+                <li style="background-color:#EFF;"></li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("全力走ってやっと道用先生の教室に入ったが"</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"やはり遅刻になった。そのとき、あなたは")</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selectc = int(input("運命の数字1~3の中から選んでね！"))</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if selectc == 1:</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("興奮しすぎて、道用先生のパソコンに水かけると。"</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"道用先生はスタンド「スター・デジタル」を呼び出して、パソコンを修復して、あなたの提出された課題を全部削除して、今学期が不合格になった。")</li>
+                <li style="background-color:#EFF;"></li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elif selectc == 2:</li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("道用先生に賄賂して、無事になった")</li>
+                <li style="background-color:#EEF;"></li>
+                <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;elif selectc == 3:</li>
+                <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("畜生って言ったあと、すぐ授業をやめって東京に遊びに行く")</li>
+                </ol></code>
+
+
+
+         <!-- ②↓に画像（imagesフォルダにあるtest.png）を挿入してみよう -->
+
+         <!-- ③↓に箇条書きをしてみよう -->
+
+         <!-- ④↓に外部リンクを作ってみよう -->
+
+    </div>
+
+</body>
+</html>
