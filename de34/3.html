@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <!-- ⑥↓タイトルを変えてみよう -->
+    <title>Fuxaseのテストページ</title>
+    <!-- ⑤スタイルシートの設定をしよう -->
+    <link rel="stylesheet" href="css/style.css">
+</head> <title>XBPのページ</title>
+<body>
+    <h1>第3回</h1>
+    <!-- 塊ごとにdivタグで区切るようにしましょう。 -->
+
+        <div>
+            コード<br>
+           
+               <ul>
+                   <li>const int DIR = 8;
+                    const int STEP = 9;
+                    void setup() {
+                      pinMode(DIR, OUTPUT);
+                      pinMode(STEP, OUTPUT);
+                      digitalWrite(DIR, LOW);
+                      digitalWrite(STEP, LOW);
+                    }
+                      
+                    void loop() {
+                      // put your main code here, to run repeatedly:
+                      int val=0;
+                      val=analogRead(1);
+                      Serial.println(val);
+                      if(val<200){
+                        for(int i=0; i<=300; i++){
+                          clockwise(5000);
+                        }
+                      }
+                    }
+                    void clockwise(int delaytime){
+                      digitalWrite(DIR, HIGH);//HIGHは時計回り
+                      digitalWrite(STEP, HIGH);
+                      delayMicroseconds(delaytime);
+                      digitalWrite(STEP, LOW);
+                      delayMicroseconds(delaytime);
+                    }
+                    void counter_clockwise(int delaytime){
+                      digitalWrite(DIR, LOW);//はLOWは反時計回り
+                      digitalWrite(STEP, HIGH);
+                      delayMicroseconds(delaytime);
+                      digitalWrite(STEP, LOW);
+                      delayMicroseconds(delaytime);
+                    }</li>
+                  
+                  </ul>
+   
+   <br>HMWとYes,and
+   <br>
+   <ul>
+       <li>僕たちの班は自分の部屋にたまる飲みかけのペットボトルに対する負の感情について話し合いました</li>
+       
+      </ul>
+   
+   
+   
+            <!-- ②↓に画像（imagesフォルダにあるtest.png）を挿入してみよう -->
+   
+            <!-- ③↓に箇条書きをしてみよう -->
+   
+            <!-- ④↓に外部リンクを作ってみよう -->
+   
+       </div>
+   
+   </body>
+   </html>
